@@ -83,7 +83,7 @@ def loopthread(message,otherss=False):
 # start command
 @app.on_message(filters.command(["start"]))
 def send_start(client: pyrogram.client.Client, message: pyrogram.types.messages_and_media.message.Message):
-    app.send_message(message.chat.id, f"__👋 Hi **{message.from_user.mention}**, i am Shikamaru 🔥 i can Bypass Links, just send me any supported links and i will you get you results.\nCheckout /help to Read More ✨ Dev🔥: @MXNITRO __",
+    app.send_message(message.chat.id, f"__👋 Hi **{message.from_user.mention}**, i am Shikamaru 🔥 i can Bypass Links, just send me any supported links and i will you get you results.\nCheckout /help to Read More ✨       Dev🔥: @MXNITRO __",
     reply_markup=InlineKeyboardMarkup([
         [ InlineKeyboardButton("🔔 Ninja Universe", url="https://t.me/Ninjauniverse")],
         [ InlineKeyboardButton("🔧 Support", url="https://t.me/Ninjauniversesupport") ]]), 
